@@ -11,7 +11,7 @@ output:
 
 # Demographic History via PSMC
 
-Demographic history in often investigated by applying SMC (Pairwise Sequential Markovian Coalescent) analysis. To read more about the PSMC software we will use or to download, visit [PSMC](https://github.com/lh3/psmc/tree/master).
+Demographic history in often investigated by applying PSMC (Pairwise Sequential Markovian Coalescent) analysis. To read more about the PSMC software we will use or to download, visit [PSMC](https://github.com/lh3/psmc/tree/master).
 
 Apply PSMC through the following steps:
 
