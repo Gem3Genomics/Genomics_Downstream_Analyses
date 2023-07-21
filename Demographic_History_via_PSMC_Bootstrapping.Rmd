@@ -1,0 +1,49 @@
+---
+title: 'Demographic History via PSMC'
+editor_options:
+  markdown:
+    wrap: 72
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+# Demographic History via PSMC
+
+Here, we will apply PSMC (Pairwise Sequential Markovian Coalescent) with bootstrap replicates to infer population size history from an individual's genome sequence. To read more about this software program, or to download, visit [PSMC](https://github.com/lh3/psmc).
+
+Apply PSMC and bootstrapping through the following steps:
+
+1) Prepare data
+2) Separate file
+3) Run PSMC on data
+4) Run bootstrap replicates 
+5) Combine outputs
+6) Generate plot
+
+Be sure that modules are available and loaded on your HPC, and submit a job script with the following code. Here, we included all of the steps listed above into one job file.
+
+```Bash
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+#
+# 1) Prepare data: locate the fastq file of the genome you want to analyze, and convert it from fastq to psmc format
+fq2psmcfa -q20 /path/to/input/fastq_file.fq.gz > /path/to/output/psmcfa_file.psmcfa
+#
+# 2) Separate file: split the file into smaller files for PSMC input
+splitfa /path/to/input/psmcfa_file.psmcfa > /path/to/output/split_psmcfa_file.split.psmcfa
+#
+# 3) Run PSMC on data: run PSMC with specified parameters on the psmc file to infer population size history
+psmc -N25 -t15 -r5 -p "4+25*2+4+6" -o /path/to/output/psmc_output_file.psmc /path/to/input/psmcfa_file.psmcfa
+#
+# 4) Run bootstrap replicates: will run 100 replicates of PSMC in parallel using 4 processes at a time
+seq 100 | xargs -P 4 -i echo psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o round-{}.psmc /path/to/input/split_psmcfa_file.split.psmcfa | sh
+#
+# 5) Combine outputs: combine original PSMC output file with the 100 bootstrap replicate output into single file
+cat /path/to/input/psmc_output_file.psmc round-*.psmc > /path/to/output/combined_psmc_output_file.combined.psmc
+#
+# 6) Generate plot
+psmc_plot.pl -g 4 -u 1e-8 -X 1000000 /path/to/input/combined_psmc_output_file.combined /path/to/output/psmc_plot_file
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+```
