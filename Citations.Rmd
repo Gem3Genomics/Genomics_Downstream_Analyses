@@ -1,0 +1,56 @@
+---
+title: "Citations"
+output:
+#  bookdown::pdf_document2:
+#    toc: TRUE
+  bookdown::html_document2: 
+    toc: TRUE
+    toc_float: TRUE
+    theme: cosmo
+link-citations: yes
+fontsize: 12pt
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+Allendorf, F. W., Funk, W. C., Aitken, S. N., Byrne, M., Luikart, G., & Antunes, A. (2022). Conservation and the Genomics of Populations (3rd ed.). Oxford University Press. [https://doi.org/10.1093/oso/9780198856566.001.0001](https://doi.org/10.1093/oso/9780198856566.001.0001).
+
+Andrews, S. (2010). FastQC:  A Quality Control Tool for High Throughput Sequence Data [Online]. Available online at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+Arias, C., Dikow, R., Figueiró-Roco, H, Koepfli, K., Spillane, J, Trizna, M (2023). SMSC 2023 Conservation Genomics [Online]. Available online at: https://github.com/SmithsonianWorkshops/SMSC_2023_Conservation_Genomics
+
+Danecek, P., Auton, A., Abecasis, G., Albers, C.A., Eric Banks, Mark A. DePristo, Handsaker, R., Lunter, G., Marth, G., Sherry, S.T., McVean, G., Durbin, R. and 1000 Genomes Project Analysis Group (2011). The Variant Call Format and VCFtools [Online]. Available online at: https://github.com/timvisee/ffsend-api
+
+Grau, J., Keilwagen, J., Gohr, A., Haldemann, B., Posch, S., and Grosse, I. Jstacs: A java framework for statistical analysis and classification of biological sequences. Journal of Machine Learning Research, 13(Jun):1967–1971, 2012.
+
+Haoyu Cheng, Gregory T. Concepcion, Xiaowen Feng, Haowen Zhang & Heng Li. (2021). Hifiasm [Online]. Available online at: https://github.com/chhylp123/hifiasm
+
+Heng, Li., (2017). Minimap2 [Online]. Available online at: https://github.com/lh3/minimap2
+
+Kreuger, F., (2019). (2019). TrimGalore! [Online]. Available online at: https://github.com/FelixKrueger/TrimGalore
+
+Li, H. (2020) LH3/PSMC: Implementation of the pairwise sequentially Markovian coalescent (PSMC) model, Github. Available at: https://github.com/lh3/psmc
+
+Laetsch DR and Blaxter ML. BlobTools: Interrogation of genome assemblies [version 1; peer review: 2 approved with reservations]. F1000Research 2017, 6:1287 (https://doi.org/10.12688/f1000research.12232.1)
+
+Manni, M., Berkeley, M. R., Seppey, M., & Zdobnov, E. M. (2021). BUSCO: Assessing genomic data quality and beyond. Current Protocols, 1, e323. doi: 10.1002/cpz1.323
+
+Marçais, G. (2015). Jellyfish [Online]. Available online at: https://github.com/gmarcais/Jellyfish
+
+McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, Garimella K, Altshuler D, Gabriel S, Daly M, DePristo MA. (2010). The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. Genome Res, 20:1297-303. DOI: 10.1101/gr.107524.110.
+Petr Danecek, James K Bonfield, Jennifer Liddle, John Marshall, Valeriu Ohan, Martin O Pollard, Andrew Whitwham, Thomas Keane, Shane A McCarthy, Robert M Davies, Heng Li 
+
+GigaScience, Volume 10, Issue 2, February 2021, giab008, https://doi.org/10.1093/gigascience/giab008
+
+Poplin R, Ruano-Rubio V, DePristo MA, Fennell TJ, Carneiro MO, Van der Auwera GA, Kling DE, Gauthier LD, Levy-Moonshine A, Roazen D, Shakir K, Thibault J, Chandran S, Whelan C, Lek M, Gabriel S, Daly MJ, Neale B, MacArthur DG, Banks E. (2017). Scaling accurate genetic variant discovery to tens of thousands of samplesbioRxiv, 201178. DOI: 10.1101/201178
+Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, MAR., Bender, D,. Maller, J., de Bakker PIW, Daly MJ & Sham PC (2017). PLINK: a toolset for whole-genome association and population-based linkage analysis [Online]. Available online at: https://zzz.bwh.harvard.edu/plink/
+
+Smit, AFA, Hubley, R. RepeatModeler Open-1.0. 2008-2015 http://www.repeatmasker.org
+
+Trizna, M. (2019). Assembly-stats [Online]. Available online at: https://pypi.org/project/assembly-stats/
+
+Visée, T. (2018). FFsend [Online]. Available online at: https://github.com/timvisee/ffsend-api
+
+Vurture, GW, Sedlazeck, FJ, Nattestad, M, Underwood, CJ, Fang, H, Gurtowski, J, Schatz, MC (2017) Bioinformatics doi: https://doi.org/10.1093/bioinformatics/btx153
+
