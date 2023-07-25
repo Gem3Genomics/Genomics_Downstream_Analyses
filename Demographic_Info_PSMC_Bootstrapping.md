@@ -1,13 +1,3 @@
----
-title: 'Demographic History via PSMC'
-editor_options:
-  markdown:
-    wrap: 72
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
----
 
 # Demographic History via PSMC
 
