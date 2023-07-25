@@ -67,4 +67,7 @@ awk '{split($1,name,"."); print $1,name[2]}' file.nosex > file.list
 # read .Q file
 tbl<-read.table("file.10.Q")
 
-#Simp
+#Simple plot
+barplot(t(as.matrix(tbl)), col=rainbow(10),
+xlab="Individual #", ylab="Ancestry", border=NA)
+```
