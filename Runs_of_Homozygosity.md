@@ -1,3 +1,5 @@
+# Runs of Homozygosity
+
 **Runs of Homozygosity (ROH)** Is defined as uninterrupted segments of homozygous sites in an individual's genome.
 
 We will use bcftools to analyze Runs of Homozygosity (RoH) and plot results in R. To read more about bcftools or to download, visit [bcftools](https://samtools.github.io/bcftools/howtos/roh-calling.html).
