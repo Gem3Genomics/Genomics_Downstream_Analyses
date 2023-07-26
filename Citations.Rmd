@@ -44,6 +44,7 @@ Petr Danecek, James K Bonfield, Jennifer Liddle, John Marshall, Valeriu Ohan, Ma
 GigaScience, Volume 10, Issue 2, February 2021, giab008, https://doi.org/10.1093/gigascience/giab008
 
 Poplin R, Ruano-Rubio V, DePristo MA, Fennell TJ, Carneiro MO, Van der Auwera GA, Kling DE, Gauthier LD, Levy-Moonshine A, Roazen D, Shakir K, Thibault J, Chandran S, Whelan C, Lek M, Gabriel S, Daly MJ, Neale B, MacArthur DG, Banks E. (2017). Scaling accurate genetic variant discovery to tens of thousands of samplesbioRxiv, 201178. DOI: 10.1101/201178
+
 Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, MAR., Bender, D,. Maller, J., de Bakker PIW, Daly MJ & Sham PC (2017). PLINK: a toolset for whole-genome association and population-based linkage analysis [Online]. Available online at: https://zzz.bwh.harvard.edu/plink/
 
 Smit, AFA, Hubley, R. RepeatModeler Open-1.0. 2008-2015 http://www.repeatmasker.org
