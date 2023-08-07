@@ -11,3 +11,7 @@ You will need access to an High Performance Computing (HPC) machine, as well as 
 
 ## Acknowledgements
 This module was made possible by the NSF Idaho EPSCoR Program and by the National Science Foundation under award number OIA-1757324. Special thanks to the [Smithsonian-Mason School of Conservation](https://smconservation.gmu.edu) and its instructors for this teaching this material.
+
+## Licensing 
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
